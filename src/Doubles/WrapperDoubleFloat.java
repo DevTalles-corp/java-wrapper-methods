@@ -9,9 +9,6 @@ public class WrapperDoubleFloat {
         Double wrapper = Double.valueOf("3.14"); // wrapper = 3.14 (como Double)
         System.out.println("El valor de 'wrapper' es: " + wrapper);
 
-        boolean isNaN = Double.isNaN(Double.NaN); // esNaN = true
-        System.out.println("El valor de 'isNaN' es: " + isNaN);
-
         int result = Double.compare(3.14, 2.71); // resultado = 1 (porque 3.14 > 2.71)
         System.out.println("El resultado de 'Double.compare(3.14, 2.71)' es: " + result);
 
